@@ -19,13 +19,13 @@ public class UserList {
     @SerializedName("total_pages")
     public Integer totalPages;
     @SerializedName("data")
-    public List data = new ArrayList();
+    public List<Datum> data = new ArrayList();
 
     public class Datum {
         @SerializedName("id")
         public Integer id;
         @SerializedName("first_name")
-        public String fist_name;
+        public String first_name;
         @SerializedName("last_name")
         public String last_name;
         @SerializedName("avatar")
